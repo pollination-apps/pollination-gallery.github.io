@@ -1,0 +1,229 @@
+html {
+  min-height: 500px;
+  padding: 20px 0;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  background-color: #fabd05df;
+}
+
+body, body a {
+  font-family: Poppins,sans-serif;
+  margin: 1em auto 4em auto;
+  position: relative;
+  tab-size: 2;
+  color: #000;
+}
+
+/* #de8814 */
+
+h1, h1 a {
+  font-size: 46px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin: .3em 0 .1em 0;
+  color: rgb(156, 141, 141);
+}
+
+h2, h2 a {
+  margin-top: .5em;
+  margin-left: .5em;
+  color: rgb(8, 1, 1);
+}
+
+h1, h2 {
+  text-rendering: optimizeLegibility;
+  text-transform: capitalize;
+}
+
+select {
+  float: right;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+.main-link {
+  text-align: right;
+  width: 100%;
+}
+
+.header{
+  color: #555;
+}
+		
+image {
+  cursor: move;
+}
+
+.overlay {
+  cursor: move;
+  fill: #DEDEDE;
+  pointer-events: all;  
+  border: 2px solid #DEDEDE;
+}
+
+.date {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+footer {
+  margin-top: 1em;
+  font-size: small;
+  display: none;
+}
+
+aside {
+  font-size: small;
+  left: 780px;
+  position: absolute;
+  text-align: right;
+  width: 180px;
+}
+
+p {
+  line-height: 1.5em;
+  width: 720px;
+}
+
+blockquote {
+  width: 640px;
+}
+
+li {
+  width: 680px;
+}
+
+a {
+  color: steelblue;
+}
+
+a:not(:hover) {
+  text-decoration: none;
+}
+
+pre, code, textarea {
+  font-family: "Menlo", monospace;
+  line-height: normal;
+}
+
+textarea {
+  font-size: 100%;
+}
+
+pre {
+  border-left: solid 2px #ccc;
+  padding-left: 18px;
+  margin: 2em 0 2em -20px;
+  width: 960px;
+  overflow-x: auto;
+}
+
+.html .value,
+.javascript .string,
+.javascript .regexp {
+  color: #756bb1;
+}
+
+.html .tag,
+.css .tag,
+.javascript .keyword {
+  color: #3182bd;
+}
+
+aside,
+.comment {
+  color: #636363;
+}
+
+.html .doctype,
+.javascript .number {
+  color: #31a354;
+}
+
+.html .attribute,
+.css .attribute,
+.javascript .class,
+.javascript .special {
+  color: #e6550d;
+}
+
+a.grid {
+  background-position: 50% 50%;
+  border: solid 1px #eee;
+  border-bottom: solid 1px #ccc;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+  line-height: normal;
+  margin: 0 10px 10px 0;
+  position: relative;
+  text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+  transition: ease 750ms background-position;
+  -webkit-transition: ease 750ms background-position;
+  -moz-transition: ease 750ms background-position;
+  -ms-transition: ease 750ms background-position;
+  -o-transition: ease 750ms background-position;
+  box-shadow: 5px 6px #de8814;
+}
+
+a.grid:hover,
+a.grid:focus {
+  background-color: #eee;
+  background-position: 50% 100%;
+  text-decoration: none;
+}
+
+a.grid .description,
+a.grid .date {
+  position: absolute;
+  padding: 10px;
+  z-index: 2;
+}
+
+a.grid .description {
+  top: 0;
+  color: #000;
+  text-transform: capitalize;
+}
+
+a.grid .date {
+  display: none;
+}
+
+a.grid:hover .description {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+a.description {
+  padding: 20px;
+  z-index: 2;
+  font-size: .8em;
+}
+
+span.components,
+
+span.dependencies {
+    border-radius: 5px;
+    margin: 3px;
+    padding: 2px;
+    display: inline-block;
+    font-size: .9em;
+}
+
+span.components {
+    border: 2px solid #BDC0C7;
+}
+
+span.dependencies {
+    border: 2px solid #B73939;
+}
+
+button {
+    cursor: pointer;
+}
