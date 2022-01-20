@@ -34,12 +34,14 @@
 <script>
     // add the platform parameter at the end of the url
     function getURL(url) {
-        return (url.includes("?") ? url + "&__platform__=Rhino" : url + "?__platform__=Rhino");
+        source_url = window.location.href;
+        return (source_url.includes("__platform__=Rhino") ? url + "?__platform__=Rhino" : url);
     }
 
     // TODO: this data should be loaded from an external file.
     data = [
         { name: "Sun path", url: "https://streamlit-experiment-sunpath-bctgvz4o3a-uc.a.run.app/", img: "img/sunpath.jpg" },
+        { name: "Outdoor comfort", url: "https://streamlit-experiment-outdoor-comfort-bctgvz4o3a-uc.a.run.app/", img: "img/outdoor-comfort.jpg" },
         { name: "Weather data analysis", url: "https://streamlit-experiment-epw-viz-bctgvz4o3a-uc.a.run.app/", img: "img/weather-data-app.jpg" },
         // { name: "Context generator", url: "http://localhost:8501/", img: "img/context.jpg" },
         { name: "Compare Daylight Results", url: "https://streamlit-experiment-compare-daylight-results-bctgvz4o3a-uc.a.run.app/", img: "img/df-comparison.jpg"},
