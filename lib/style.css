@@ -5,7 +5,7 @@ html {
   padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 50px;
-  background-color: #fabd05df;
+  background-color: #FFF8D9;
 }
 
 body, body a {
@@ -168,7 +168,7 @@ a.grid {
   -moz-transition: ease 750ms background-position;
   -ms-transition: ease 750ms background-position;
   -o-transition: ease 750ms background-position;
-  box-shadow: 5px 6px #de8814;
+  box-shadow: 5px 6px #FDEFBD;
 }
 
 a.grid:hover,
